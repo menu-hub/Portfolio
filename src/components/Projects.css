@@ -1,0 +1,74 @@
+.projects {
+  background-color: var(--bg-secondary);
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 2.5rem;
+  margin-top: 4rem;
+}
+
+.project-card {
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  transition: var(--transition);
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  border-color: var(--accent);
+}
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.project-title {
+  font-size: 1.8rem;
+  color: var(--accent);
+}
+
+.github-link {
+  color: var(--text-secondary);
+  opacity: 0.7;
+}
+
+.github-link:hover {
+  color: var(--accent);
+  opacity: 1;
+}
+
+.project-description {
+  color: var(--text-secondary);
+  line-height: 1.7;
+  font-size: 0.95rem;
+  flex-grow: 1;
+}
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin-top: 1rem;
+}
+
+.project-tag {
+  font-family: monospace;
+  font-size: 0.75rem;
+  color: var(--accent);
+  border: 1px solid var(--accent-muted);
+  padding: 0.3rem 0.8rem;
+  border-radius: 2px;
+  background-color: var(--accent-muted);
+}
+
+@media (max-width: 600px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}

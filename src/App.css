@@ -1,0 +1,57 @@
+.app {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+main {
+  position: relative;
+}
+
+/* Base reveal animation state */
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Staggered reveals for lists */
+.education-list .reveal,
+.projects-grid .reveal,
+.skills-grid .reveal {
+  transition-delay: calc(var(--index) * 0.1s);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--surface);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent);
+}
+
+/* Selection */
+::selection {
+  background-color: var(--accent);
+  color: #000;
+}
+
+@media (max-width: 768px) {
+  section {
+    padding: 60px 0;
+  }
+}
