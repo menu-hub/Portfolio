@@ -27,10 +27,7 @@ const Contact = () => {
     e.preventDefault();
     setStatus({ submitting: true, success: false, error: null });
 
-    // Web3Forms Integration - Free static form service
-    // You can get your own free Access Key at: https://web3forms.com/
-    // Replacing this key will send messages directly to your email inbox!
-    const accessKey = "YOUR_WEB3FORMS_ACCESS_KEY_HERE";
+    const accessKey = "c5d0e9bc-d804-4df5-981e-8e4be3bdb95c";
 
     if (accessKey === "YOUR_WEB3FORMS_ACCESS_KEY_HERE") {
       // Fallback behavior: if no key is set yet, open default mail client
