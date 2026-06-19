@@ -9,9 +9,10 @@ export const portfolioData = {
     ],
     coordinates: "7.2906° N, 80.6337° E",
     location: "Kandy, Sri Lanka",
-    email: "menura.t@email.com",
-    github: "#",
-    linkedin: "#",
+    email: "menurathalewela678@gmail.com",
+    phone: "+94 77 123 4567",
+    github: "https://github.com/menu-hub",
+    linkedin: "https://linkedin.com/in/menura-thalewela",
     twitter: "#"
   },
   stats: [
@@ -22,12 +23,12 @@ export const portfolioData = {
   ],
   education: [
     {
-      year: '2025 - Present',
+      year: '2026 - Present',
       degree: 'BSc (Hons) in Software Engineering',
       institution: 'ICBT Kandy Campus / Cardiff Metropolitan University (UK)'
     },
     {
-      year: '2023 - 2025',
+      year: '2024 - 2025',
       degree: 'Higher Diploma in Computing and Software Engineering',
       institution: 'ICBT Kandy Campus / Cardiff Metropolitan University (UK)'
     }
