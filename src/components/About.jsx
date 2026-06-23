@@ -23,6 +23,10 @@ const About = () => {
             <p key={index} className="about-text">{paragraph}</p>
           ))}
 
+          <div className="about-buttons" style={{ marginTop: '0.5rem' }}>
+            <a href="/CV.pdf" download="Menura_Thalewela_CV.pdf" className="btn btn-outline">Download CV</a>
+          </div>
+
           <div className="stats-grid">
             {stats.map((stat, index) => (
               <div key={index} className="stat-item">
