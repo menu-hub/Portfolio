@@ -10,7 +10,7 @@ export const portfolioData = {
     coordinates: "7.2906° N, 80.6337° E",
     location: "Kandy, Sri Lanka",
     email: "menurathalewela678@gmail.com",
-    phone: "+94 77 123 4567",
+    phone: "+94 704473453",
     github: "https://github.com/menu-hub",
     linkedin: "https://linkedin.com/in/menura-thalewela",
     twitter: "#"
@@ -24,7 +24,7 @@ export const portfolioData = {
   education: [
     {
       year: '2026 - Present',
-      degree: 'BSc (Hons) in Software Engineering',
+      degree: 'BSc (Hons) in Business Information Systems',
       institution: 'ICBT Kandy Campus / Cardiff Metropolitan University (UK)'
     },
     {
@@ -44,18 +44,6 @@ export const portfolioData = {
       title: 'GadgetHub',
       description: 'A microservices-based e-commerce platform that manages quotation requests across multiple distributor APIs. Features a central hub API distributing customer requests to external services via webhook integration.',
       tags: ['ASP.NET Core', 'React', 'SQL Server', 'Microservices', 'Redux Toolkit'],
-      github: '#'
-    },
-    {
-      title: 'LuxeVista Resort',
-      description: 'Android mobile application enabling guests to book rooms and services, view local attractions, and manage bookings. Features real-time booking management and Firebase-powered authentication.',
-      tags: ['Android', 'Java', 'Firebase', 'Material Design'],
-      github: '#'
-    },
-    {
-      title: 'OceanView Hotel Booking',
-      description: 'A full-stack hotel booking platform with real-time availability tracking, user reviews, and secure payment integration.',
-      tags: ['React', 'Node.js', 'MongoDB', 'Stripe'],
       github: '#'
     },
     {
